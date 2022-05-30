@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SKINCARE</title>
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/ccaee64d2b.js" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <a href="2limpieza.html"></a>
+    <a href="4humectación.html"></a>
+    <a href="6contacto.html"></a>
+    <a href="3tonicos.html"></a>
+</head>
+
+
+<body>
+  <header id="main-header">
+    <h1 class="animate__animated animate__bounce">¿Queres empezar a cuidarte la piel y no sabes cómo?</h1>
+    <h2> Guia  de  S K I N C A R E </h2>
+</header>
+  <nav id="main-nav">
+    <!--comentar entre un li y otro para no tener problemas con el css-->        
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i></a>
+        <li><a href="2limpieza.html">Paso 1: LIMPIEZA</a></li><!--
+     --><li><a href="3tonicos.html">Paso 2: TÓNICOS</a></li><!--
+     --><li><a href="4humectación.html">Paso 3: HUMECTACIÓN</a></li><!--
+     --><li><a href="6contacto.html">¿Tenés dudas? Escribinos!</a></li>
+    </ul>
+</nav>
+<body>
+  <main id="home-content">
+    <section id="contacto">
+      <h1> Contanos tus dudas, te responderemos a la mayor brevedad posible! </h1>
+      <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+          <input type="surname" class="form-control" id="exampleFormControlInput2"placeholder="Apellido" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="email@ejemplo.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Detallanos tu consulta" required></textarea>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Deseo recibir contenido promocional y mantenerme al día de las últimas novedades de Skincare.
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Acepto terminos y condiciones
+          </label>
+        </div>
+        <button onclick="validar" class="btn btn-primary">Enviar</button>
+      </form>  
+    </section>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </main> 
+
+  <footer id="main-footer">
+    <p>&copy; Macarena Villardi - 2022 </p>
+ </footer>
+  
+</body>
+</html>
